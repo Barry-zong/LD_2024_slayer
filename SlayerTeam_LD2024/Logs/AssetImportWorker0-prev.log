@@ -15,7 +15,7 @@ D:/Unity/unityprojects/SlayerTeam_LD2024
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60647
+51252
 Successfully changed project path to: D:/Unity/unityprojects/SlayerTeam_LD2024
 D:/Unity/unityprojects/SlayerTeam_LD2024
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ D:/Unity/unityprojects/SlayerTeam_LD2024
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [35720] Host "[IP] 192.168.10.101 [Port] 0 [Flags] 2 [Guid] 3525321946 [EditorId] 3525321946 [Version] 1048832 [Id] WindowsEditor(7,Shuai) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [49576] Host "[IP] 192.168.2.83 [Port] 0 [Flags] 2 [Guid] 2566815268 [EditorId] 2566815268 [Version] 1048832 [Id] WindowsEditor(7,Shuai) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [35720] Host "[IP] 192.168.10.101 [Port] 0 [Flags] 2 [Guid] 3525321946 [EditorId] 3525321946 [Version] 1048832 [Id] WindowsEditor(7,Shuai) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [49576] Host "[IP] 192.168.2.83 [Port] 0 [Flags] 2 [Guid] 2566815268 [EditorId] 2566815268 [Version] 1048832 [Id] WindowsEditor(7,Shuai) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 AS: AutoStreaming module initializing.
-Refreshing native plugins compatible for Editor in 1.94 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 64.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.19f1c1 (b8e3cea1e9d3)
 [Subsystems] Discovering subsystems at path F:/Unity/UnityDifferentVertions/2021.3.19lts/Unity 2021.3.19f1c1/Editor/Data/Resources/UnitySubsystems
@@ -68,90 +68,92 @@ Initialize mono
 Mono path[0] = 'F:/Unity/UnityDifferentVertions/2021.3.19lts/Unity 2021.3.19f1c1/Editor/Data/Managed'
 Mono path[1] = 'F:/Unity/UnityDifferentVertions/2021.3.19lts/Unity 2021.3.19f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'F:/Unity/UnityDifferentVertions/2021.3.19lts/Unity 2021.3.19f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56500
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56364
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: F:/Unity/UnityDifferentVertions/2021.3.19lts/Unity 2021.3.19f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: F:/Unity/UnityDifferentVertions/2021.3.19lts/Unity 2021.3.19f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005751 seconds.
+Registered in 0.003121 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 58.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.803 seconds
+- Completed reload, in  0.446 seconds
 Domain Reload Profiling:
-	ReloadAssembly (804ms)
-		BeginReloadAssembly (149ms)
+	ReloadAssembly (446ms)
+		BeginReloadAssembly (69ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (484ms)
-			LoadAssemblies (143ms)
+		EndReloadAssembly (295ms)
+			LoadAssemblies (62ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (162ms)
+			SetupTypeCache (66ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (214ms)
+			RebuildScriptCaches (17ms)
+			SetupLoadedEditorAssemblies (170ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
+				RefreshPlugins (59ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (146ms)
-				ProcessInitializeOnLoadMethodAttributes (57ms)
+				ProcessInitializeOnLoadAttributes (75ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000000 seconds.
+Registered in 0.009101 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.03 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 62.44 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.788 seconds
+- Completed reload, in  0.905 seconds
 Domain Reload Profiling:
-	ReloadAssembly (788ms)
-		BeginReloadAssembly (180ms)
+	ReloadAssembly (905ms)
+		BeginReloadAssembly (81ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (513ms)
-			LoadAssemblies (118ms)
+			CreateAndSetChildDomain (11ms)
+		EndReloadAssembly (743ms)
+			LoadAssemblies (71ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (143ms)
+			SetupTypeCache (176ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (211ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (436ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (33ms)
-				ProcessInitializeOnLoadAttributes (128ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (17ms)
+				RefreshPlugins (63ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (245ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.04 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2 unused Assets / (52.1 KB). Loaded Objects now: 481.
-Memory consumption went from 22.4 MB to 22.4 MB.
-Total: 3.079900 ms (FindLiveObjects: 0.044500 ms CreateObjectMapping: 0.004700 ms MarkObjects: 2.980500 ms  DeleteObjects: 0.049200 ms)
+Unloading 4939 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (0.7 MB). Loaded Objects now: 5399.
+Memory consumption went from 198.6 MB to 197.8 MB.
+Total: 3.234400 ms (FindLiveObjects: 0.226100 ms CreateObjectMapping: 0.085200 ms MarkObjects: 2.651900 ms  DeleteObjects: 0.270300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,640 +168,196 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 92283.682874 seconds.
-  path: Assets/UniversalRenderPipelineGlobalSettings.asset
-  artifactKey: Guid(38b35347542e5af4c9b140950c5b18db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(38b35347542e5af4c9b140950c5b18db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8db1c49bef184c60124d1fc5b1630a7') in 0.031196 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010645 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 132.04 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.922 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1923ms)
-		BeginReloadAssembly (107ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (12ms)
-		EndReloadAssembly (1711ms)
-			LoadAssemblies (142ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (494ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (925ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (132ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (607ms)
-				ProcessInitializeOnLoadMethodAttributes (74ms)
-				AfterProcessingInitializeOnLoad (17ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
-Platform modules already initialized, skipping
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:466 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00015] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:624 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00000] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:1145 
-
-(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 466)
-
-Shader 'Universal Render Pipeline/Particles/Simple Lit': fallback shader 'Universal Render Pipeline/Particles/Unlit' not found
-Shader 'Universal Render Pipeline/Nature/SpeedTree7': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Universal Render Pipeline/Nature/SpeedTree7': dependency 'BillboardShader' shader 'Universal Render Pipeline/Nature/SpeedTree7 Billboard' not found
-Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader 'Universal Render Pipeline/Unlit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Hidden/Universal Render Pipeline/StencilDeferred': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Universal Render Pipeline/Simple Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'Hidden/Universal Render Pipeline/FallbackError': fallback shader 'Hidden/Core/FallbackError' not found
-Refreshing native plugins compatible for Editor in 2.13 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4887 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 98 unused Assets / (6.5 MB). Loaded Objects now: 5276.
-Memory consumption went from 188.6 MB to 182.1 MB.
-Total: 4.816400 ms (FindLiveObjects: 0.232700 ms CreateObjectMapping: 0.080100 ms MarkObjects: 2.501400 ms  DeleteObjects: 2.001100 ms)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:466 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00015] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:624 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00000] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:1145 
-
-(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 466)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:srp/default-shader: 0000e00a000e0de00000e000e0000000 -> 00a0da0d000000000000000000000000
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 98973.533932 seconds.
+  path: Assets/Scenes/SampleSceneLightingSettings.lighting
+  artifactKey: Guid(477cc4148fad3449482a3bc3178594e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleSceneLightingSettings.lighting using Guid(477cc4148fad3449482a3bc3178594e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d9e2b5aff309b6af3bb33779c12b33') in 0.038476 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 230.101792 seconds.
-  path: Assets/UniversalRenderPipelineGlobalSettings.asset
-  artifactKey: Guid(38b35347542e5af4c9b140950c5b18db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(38b35347542e5af4c9b140950c5b18db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3e2ece8825f9db6c2b5200bf51a29c') in 0.015898 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008179 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.043 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1044ms)
-		BeginReloadAssembly (128ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (827ms)
-			LoadAssemblies (100ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (218ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (435ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (288ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
-				AfterProcessingInitializeOnLoad (17ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:466 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00015] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:624 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00000] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:1145 
-
-(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 466)
-
-Refreshing native plugins compatible for Editor in 1.89 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4886 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 98 unused Assets / (6.5 MB). Loaded Objects now: 5279.
-Memory consumption went from 190.3 MB to 183.8 MB.
-Total: 4.713600 ms (FindLiveObjects: 0.191800 ms CreateObjectMapping: 0.068300 ms MarkObjects: 2.421400 ms  DeleteObjects: 2.031200 ms)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:466 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00015] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:624 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00000] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:1145 
-
-(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 466)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:srp/default-shader: 0000e00a000e0de00000e000e0000000 -> 00a0da0d000000000000000000000000
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 0.001897 seconds.
+  path: Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs
+  artifactKey: Guid(476cc7d7cd9874016adc216baab94a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs using Guid(476cc7d7cd9874016adc216baab94a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a387ddb85289cbb49dd24c04e85ab504') in 0.006082 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.243145 seconds.
-  path: Assets/UniversalRenderPipelineGlobalSettings.asset
-  artifactKey: Guid(38b35347542e5af4c9b140950c5b18db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(38b35347542e5af4c9b140950c5b18db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b14d8248548f96f452dc17bafb24a4a2') in 0.011825 seconds 
+  Time since last request: 0.000013 seconds.
+  path: Assets/ExampleAssets/Models/ConstructionLight_Low.fbx
+  artifactKey: Guid(e3ae06a3979f53046aa05330d69de1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/ConstructionLight_Low.fbx using Guid(e3ae06a3979f53046aa05330d69de1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa47b14078c40b588b10e273a50bdd54') in 0.197588 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 41.479335 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.002018 seconds 
+  Time since last request: 0.000016 seconds.
+  path: Assets/ExampleAssets/Materials/Ground_Mat.mat
+  artifactKey: Guid(d92ef32394b5f474385d74b565a7bdd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Ground_Mat.mat using Guid(d92ef32394b5f474385d74b565a7bdd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '265ffdd74f2e3352216f7444f749335e') in 0.010064 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.079800 seconds.
-  path: Assets/LD_2024_Assets
-  artifactKey: Guid(bd8f10f98a7540c45953e03264cd92ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LD_2024_Assets using Guid(bd8f10f98a7540c45953e03264cd92ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e5fbecc4e1a566d6b220630588b047') in 0.001323 seconds 
+  Time since last request: 0.000217 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(9a81f1a59f171804e84fce76584bdcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_MetallicOcculusionSmoothness.tif using Guid(9a81f1a59f171804e84fce76584bdcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f835a7054f2c5f8222c74919d66d6e12') in 0.020820 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.491802 seconds.
-  path: Assets/LD_2024_Assets/Model
-  artifactKey: Guid(9da41edf0b2923b4990e41a0cc514cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LD_2024_Assets/Model using Guid(9da41edf0b2923b4990e41a0cc514cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7afb442c148fc786fb7160016f10d60') in 0.001353 seconds 
+  Time since last request: 0.002342 seconds.
+  path: Assets/TutorialInfo/Scripts/Readme.cs
+  artifactKey: Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/Scripts/Readme.cs using Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f557d56f330934212203addb301aed59') in 0.001147 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 24.731721 seconds.
-  path: Assets/LD_2024_Assets/Model/14_10_50_Room.fbx
-  artifactKey: Guid(082a30becdeee5d4982fa34b8e1be0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LD_2024_Assets/Model/14_10_50_Room.fbx using Guid(082a30becdeee5d4982fa34b8e1be0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:466 
-  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <28d694a2939e4826992577f826717d3b>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
-UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
-UnityEngine.Camera:Render(Camera)
-UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
-UnityEditor.GameObjectInspector:DoRenderPreview()
-UnityEditor.GameObjectInspector:RenderStaticPreview(String, Object[], Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
-
-(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 466)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:466 
-  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <28d694a2939e4826992577f826717d3b>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
-UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
-UnityEngine.Camera:Render(Camera)
-UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
-UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
-UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
-
-(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 466)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:466 
-  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <28d694a2939e4826992577f826717d3b>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
-UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
-UnityEngine.Camera:Render(Camera)
-UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
-UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
-UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
-
-(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 466)
-
- -> (artifact id: 'e85b648986c60260aa7dace7e44dc638') in 0.377416 seconds 
+  Time since last request: 0.000013 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_Albedo.tif
+  artifactKey: Guid(2ec6e1532acb1254f9f3797b5d82db44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_Albedo.tif using Guid(2ec6e1532acb1254f9f3797b5d82db44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f4cc6cdbe31f5c3982d365de71ff60') in 0.005840 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 52.484239 seconds.
-  path: Assets/LD_2024_Assets/Materials
-  artifactKey: Guid(98c63ed5003e63e4faf10ddad6b575b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LD_2024_Assets/Materials using Guid(98c63ed5003e63e4faf10ddad6b575b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78f55c7a8986713295b6cc2b2269abb4') in 0.001504 seconds 
+  Time since last request: 0.002862 seconds.
+  path: Assets/ExampleAssets/Textures/Metal/Metal_Normal.tif
+  artifactKey: Guid(3b0b7c1f4ac9f6b499e27cf84e722ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Metal/Metal_Normal.tif using Guid(3b0b7c1f4ac9f6b499e27cf84e722ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f30ed28b5067faa768eb132c831a535') in 0.008142 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 80.611891 seconds.
-  path: Assets/LD_2024_Assets/Model/14_10_50_Room.fbx
-  artifactKey: Guid(082a30becdeee5d4982fa34b8e1be0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LD_2024_Assets/Model/14_10_50_Room.fbx using Guid(082a30becdeee5d4982fa34b8e1be0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:466 
-  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <28d694a2939e4826992577f826717d3b>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
-UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
-UnityEngine.Camera:Render(Camera)
-UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
-UnityEditor.GameObjectInspector:DoRenderPreview()
-UnityEditor.GameObjectInspector:RenderStaticPreview(String, Object[], Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
-
-(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 466)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:466 
-  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <28d694a2939e4826992577f826717d3b>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
-UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
-UnityEngine.Camera:Render(Camera)
-UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
-UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
-UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
-
-(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 466)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:466 
-  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <28d694a2939e4826992577f826717d3b>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
-UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
-UnityEngine.Camera:Render(Camera)
-UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
-UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
-UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
-
-(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 466)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:466 
-  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <28d694a2939e4826992577f826717d3b>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
-UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
-UnityEngine.Camera:Render(Camera)
-UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
-UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
-UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
-
-(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 466)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:466 
-  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <28d694a2939e4826992577f826717d3b>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
-UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
-UnityEngine.Camera:Render(Camera)
-UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
-UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
-UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
-
-(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 466)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:466 
-  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <28d694a2939e4826992577f826717d3b>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
-UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
-UnityEngine.Camera:Render(Camera)
-UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
-UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
-UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
-
-(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 466)
-
- -> (artifact id: '7300fb1954e5d08e05ac2b4ad270548c') in 0.041360 seconds 
+  Time since last request: 0.003565 seconds.
+  path: Assets/ExampleAssets/Textures/Metal/Metal_MetallicSmoothness.tif
+  artifactKey: Guid(40da0395b61db4448b98bab66d6b549c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Metal/Metal_MetallicSmoothness.tif using Guid(40da0395b61db4448b98bab66d6b549c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f5d5960a537631747df5aa86c2fa2f') in 0.005200 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.734400 seconds.
-  path: Assets/LD_2024_Assets/Materials/Wall_.mat
-  artifactKey: Guid(83e49945879231a4c9933168ec055edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LD_2024_Assets/Materials/Wall_.mat using Guid(83e49945879231a4c9933168ec055edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:466 
-  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <28d694a2939e4826992577f826717d3b>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
-UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
-UnityEngine.Camera:Render(Camera)
-UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
-UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
-UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
-
-(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 466)
-
- -> (artifact id: 'a60ef4661c56da06f2774717769c6bc3') in 0.015934 seconds 
+  Time since last request: 0.000177 seconds.
+  path: Assets/ExampleAssets/Materials/Stud_Mat.mat
+  artifactKey: Guid(027cb3d3d7dc79d41ad763e01759de07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Stud_Mat.mat using Guid(027cb3d3d7dc79d41ad763e01759de07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36243d15528a82503e6aa128e682a203') in 0.008120 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.464300 seconds.
-  path: Assets/LD_2024_Assets/Materials/Wall_ 1.mat
-  artifactKey: Guid(f07297c74b116564ca123b80ade46e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LD_2024_Assets/Materials/Wall_ 1.mat using Guid(f07297c74b116564ca123b80ade46e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:466 
-  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <28d694a2939e4826992577f826717d3b>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
-UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
-UnityEngine.Camera:Render(Camera)
-UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
-UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
-UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
-
-(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 466)
-
- -> (artifact id: '264c5cbb1e24fd2dfc3105c8d3156372') in 0.010518 seconds 
+  Time since last request: 0.000389 seconds.
+  path: Assets/ExampleAssets/Textures/Concrete/Ground_Normal.tif
+  artifactKey: Guid(fab85e0cacda9644a99e5182a86b71f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Concrete/Ground_Normal.tif using Guid(fab85e0cacda9644a99e5182a86b71f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b115171c2d66d8717e87c97ed9bc1ee4') in 0.005065 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.675179 seconds.
-  path: Assets/LD_2024_Assets/Materials/Wall_ 2.mat
-  artifactKey: Guid(16d4a3b543876d246a76f55ca484927d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LD_2024_Assets/Materials/Wall_ 2.mat using Guid(16d4a3b543876d246a76f55ca484927d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:466 
-  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <28d694a2939e4826992577f826717d3b>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
-UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
-UnityEngine.Camera:Render(Camera)
-UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
-UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
-UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
-
-(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 466)
-
- -> (artifact id: 'b6995208790c8637302762736f4b1284') in 0.007936 seconds 
+  Time since last request: 0.000313 seconds.
+  path: Assets/Scripts/SimpleCameraController.cs
+  artifactKey: Guid(be76e5f14cfee674cb30b491fb72b09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SimpleCameraController.cs using Guid(be76e5f14cfee674cb30b491fb72b09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a95751ad8e4bb93c0059eec9da4d11') in 0.000992 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.842682 seconds.
-  path: Assets/LD_2024_Assets/Materials/Wall_ 3.mat
-  artifactKey: Guid(626d2153a6a6b484cae8b15efdfdf2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LD_2024_Assets/Materials/Wall_ 3.mat using Guid(626d2153a6a6b484cae8b15efdfdf2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:466 
-  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <28d694a2939e4826992577f826717d3b>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
-UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
-UnityEngine.Camera:Render(Camera)
-UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
-UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
-UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
-
-(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 466)
-
- -> (artifact id: 'b1010c8efe1326d8e4d93416168a5d10') in 0.018767 seconds 
+  Time since last request: 0.000153 seconds.
+  path: Assets/Materials/Skybox_Mat.mat
+  artifactKey: Guid(0ffaa0b7117ba8c47a9d05ae701d4b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Skybox_Mat.mat using Guid(0ffaa0b7117ba8c47a9d05ae701d4b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0e1794afd2fa90281a0e4b394cb256a') in 0.009691 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.972480 seconds.
-  path: Assets/LD_2024_Assets/Materials/Wall_ 4.mat
-  artifactKey: Guid(7c88a3306a8fe3f4aad60c5d74f92100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LD_2024_Assets/Materials/Wall_ 4.mat using Guid(7c88a3306a8fe3f4aad60c5d74f92100) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:466 
-  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <28d694a2939e4826992577f826717d3b>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
-UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
-UnityEngine.Camera:Render(Camera)
-UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
-UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
-UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
-
-(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 466)
-
- -> (artifact id: 'b5bf93d1d9a70a131eb5c5533815f8d5') in 0.023955 seconds 
+  Time since last request: 0.000474 seconds.
+  path: Assets/ExampleAssets/Textures/Concrete/Ground_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(a8d38587573a5f34c91c4ae0fbd8bfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Concrete/Ground_MetallicOcculusionSmoothness.tif using Guid(a8d38587573a5f34c91c4ae0fbd8bfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c73830841d905984454cede5a765537') in 0.006504 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.748461 seconds.
-  path: Assets/LD_2024_Assets/Materials/Ground_Room.mat
-  artifactKey: Guid(83e49945879231a4c9933168ec055edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LD_2024_Assets/Materials/Ground_Room.mat using Guid(83e49945879231a4c9933168ec055edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:466 
-  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <28d694a2939e4826992577f826717d3b>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
-UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
-UnityEngine.Camera:Render(Camera)
-UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
-UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
-UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
-
-(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 466)
-
- -> (artifact id: '766346159a88b38cc6b91e4622d49981') in 0.008063 seconds 
+  Time since last request: 0.000520 seconds.
+  path: Assets/ExampleAssets/Materials/Metal_Simple_Mat.mat
+  artifactKey: Guid(a0427cf339e5891468d5f2b433b2d44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Metal_Simple_Mat.mat using Guid(a0427cf339e5891468d5f2b433b2d44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ddaa32ee91a4a2f74a5687967a3056') in 0.011829 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 173.438153 seconds.
-  path: Assets/LD_2024_Assets/Materials/Ground_Room.mat
-  artifactKey: Guid(83e49945879231a4c9933168ec055edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LD_2024_Assets/Materials/Ground_Room.mat using Guid(83e49945879231a4c9933168ec055edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:466 
-  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <28d694a2939e4826992577f826717d3b>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
-UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
-UnityEngine.Camera:Render(Camera)
-UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
-UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
-UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
-
-(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 466)
-
- -> (artifact id: 'e5b76b4fd6a8720724633b214c4c8780') in 0.014070 seconds 
+  Time since last request: 0.000022 seconds.
+  path: Assets/ExampleAssets/Prefabs/ConstructionLightLow.prefab
+  artifactKey: Guid(bf0a225a9ff184f2789f3036faaa9150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Prefabs/ConstructionLightLow.prefab using Guid(bf0a225a9ff184f2789f3036faaa9150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57e0f62f7921af957e9d16b7c98962e0') in 0.939727 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/LD_2024_Assets/Materials/Wall_ 4.mat
-  artifactKey: Guid(7c88a3306a8fe3f4aad60c5d74f92100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LD_2024_Assets/Materials/Wall_ 4.mat using Guid(7c88a3306a8fe3f4aad60c5d74f92100) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:466 
-  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <28d694a2939e4826992577f826717d3b>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
-UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
-UnityEngine.Camera:Render(Camera)
-UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
-UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
-UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
-
-(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 466)
-
- -> (artifact id: '8c33ff06cd3faf80c83f44406a75711f') in 0.021313 seconds 
+  Time since last request: 0.003966 seconds.
+  path: Assets/ExampleAssets/Textures/Wood/Plywood_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(2e38f7921b7d7b1418ab63c08117ffb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Wood/Plywood_MetallicOcculusionSmoothness.tif using Guid(2e38f7921b7d7b1418ab63c08117ffb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '358e8db7ddfc2005d0bf72b212a37c60') in 0.005029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000475 seconds.
+  path: Assets/ExampleAssets/Textures/Wood/Plywood_Normal.tif
+  artifactKey: Guid(2148396b133b56f40baa7ea4fd22982a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Wood/Plywood_Normal.tif using Guid(2148396b133b56f40baa7ea4fd22982a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '806c423650f1f039672d1dfabbe2d98c') in 0.004843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/ExampleAssets/Textures/Concrete/Ground_Albedo.tif
+  artifactKey: Guid(87ce03bd447ccce48bbff87ac0d8355f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Concrete/Ground_Albedo.tif using Guid(87ce03bd447ccce48bbff87ac0d8355f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe03023581292f13f525e74ad90cfed8') in 0.005070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000780 seconds.
+  path: Assets/ExampleAssets/Models/Workshop_Set.fbx
+  artifactKey: Guid(47616bd0cda748d4cbedcfc908506b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/Workshop_Set.fbx using Guid(47616bd0cda748d4cbedcfc908506b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65510a18f623f83ec6210a97342765ae') in 0.045703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ExampleAssets/Materials/LightBulb_Mat.mat
+  artifactKey: Guid(ec739259ec61f5d4ba3ed6d34fd802a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/LightBulb_Mat.mat using Guid(ec739259ec61f5d4ba3ed6d34fd802a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f9591b40fef734c17ebef7a22fc8b45') in 0.004909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000520 seconds.
+  path: Assets/ExampleAssets/Textures/Metal/Metal_Albedo.tif
+  artifactKey: Guid(77583f99dea53b641804bb357092ec83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Metal/Metal_Albedo.tif using Guid(77583f99dea53b641804bb357092ec83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579ce86c786357e2690d3d31fb473fdd') in 0.005701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/ExampleAssets/Materials/ConstructionLight_Mat.mat
+  artifactKey: Guid(49076442eeb7e054b8e8869f8b40656d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/ConstructionLight_Mat.mat using Guid(49076442eeb7e054b8e8869f8b40656d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e073921ca41d9769e09fcea9b0a9e14') in 0.010902 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000014 seconds.
-  path: Assets/LD_2024_Assets/Materials/Wall_ 2.mat
-  artifactKey: Guid(16d4a3b543876d246a76f55ca484927d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LD_2024_Assets/Materials/Wall_ 2.mat using Guid(16d4a3b543876d246a76f55ca484927d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:466 
-  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <28d694a2939e4826992577f826717d3b>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
-UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
-UnityEngine.Camera:Render(Camera)
-UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
-UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
-UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
-
-(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 466)
-
- -> (artifact id: 'cb490d667a28bb8c91814f98a796509e') in 0.009863 seconds 
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e75bbda58e597ed465beb2f8333ca2') in 0.003769 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/LD_2024_Assets/Materials/Wall_ 3.mat
-  artifactKey: Guid(626d2153a6a6b484cae8b15efdfdf2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LD_2024_Assets/Materials/Wall_ 3.mat using Guid(626d2153a6a6b484cae8b15efdfdf2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:466 
-  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <28d694a2939e4826992577f826717d3b>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
-UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
-UnityEngine.Camera:Render(Camera)
-UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
-UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
-UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
-
-(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 466)
-
- -> (artifact id: '59062dab541b474ebf7bfa72995efe84') in 0.012615 seconds 
+  Time since last request: 0.000748 seconds.
+  path: Assets/ExampleAssets/Textures/Wood/Plywood_Albedo.tif
+  artifactKey: Guid(9644eb6aca67672449e2bcbb0eab8e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Wood/Plywood_Albedo.tif using Guid(9644eb6aca67672449e2bcbb0eab8e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20aa7c85b2e8dce5da6271eab65f8aa8') in 0.006841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4284.801103 seconds.
+  path: Assets/LD_2024_Assets/Materials/Tile_Ceramic_xephfh3_2K_surface_ms
+  artifactKey: Guid(2667f87561bbe9149b9e4c6d0a89ef59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LD_2024_Assets/Materials/Tile_Ceramic_xephfh3_2K_surface_ms using Guid(2667f87561bbe9149b9e4c6d0a89ef59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acbb51b97177179601a3a838af9b3b23') in 0.003747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017618 seconds.
+  path: Assets/LD_2024_Assets/Materials/Tile_Ceramic_xephfh3_2K_surface_ms/Tile_Ceramic_xephfh3_surface_Preview.png
+  artifactKey: Guid(d1b2cdd9fddc7e44499b2a03083bff49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LD_2024_Assets/Materials/Tile_Ceramic_xephfh3_2K_surface_ms/Tile_Ceramic_xephfh3_surface_Preview.png using Guid(d1b2cdd9fddc7e44499b2a03083bff49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38adbb2f72a7789bfb2368d7addc5415') in 0.053916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/LD_2024_Assets/Materials/Tile_Ceramic_xephfh3_2K_surface_ms/xephfh3_2K_AO.jpg
+  artifactKey: Guid(b0e6533807b4b0f4188bc8f13cb53aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LD_2024_Assets/Materials/Tile_Ceramic_xephfh3_2K_surface_ms/xephfh3_2K_AO.jpg using Guid(b0e6533807b4b0f4188bc8f13cb53aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8532240ce7eccfb16d4e3c0009e7fdf') in 0.013435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/LD_2024_Assets/Materials/Tile_Ceramic_xephfh3_2K_surface_ms/xephfh3_2K_Roughness.jpg
+  artifactKey: Guid(f16ff912e79e7614ea44f8e2c39bd4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LD_2024_Assets/Materials/Tile_Ceramic_xephfh3_2K_surface_ms/xephfh3_2K_Roughness.jpg using Guid(f16ff912e79e7614ea44f8e2c39bd4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21c4f249acc7d525c6fbff04a1c17fde') in 0.008175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/LD_2024_Assets/Materials/Tile_Ceramic_xephfh3_2K_surface_ms/xephfh3_2K_Normal.jpg
+  artifactKey: Guid(d37b8c643fe71b642b306fa34c60573d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LD_2024_Assets/Materials/Tile_Ceramic_xephfh3_2K_surface_ms/xephfh3_2K_Normal.jpg using Guid(d37b8c643fe71b642b306fa34c60573d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f2e5cd6079d77036acf455459b0de12') in 0.009131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/LD_2024_Assets/Materials/Tile_Ceramic_xephfh3_2K_surface_ms/xephfh3_2K_Displacement.jpg
+  artifactKey: Guid(d7a493cdcd755494db670ce478e6191c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LD_2024_Assets/Materials/Tile_Ceramic_xephfh3_2K_surface_ms/xephfh3_2K_Displacement.jpg using Guid(d7a493cdcd755494db670ce478e6191c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff3e6b932d596510ec4f6d0b91131fe') in 0.007175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/LD_2024_Assets/Materials/Tile_Ceramic_xephfh3_2K_surface_ms/xephfh3_2K_Displacement.exr
+  artifactKey: Guid(c5153c498bef0684894301c7be42503d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LD_2024_Assets/Materials/Tile_Ceramic_xephfh3_2K_surface_ms/xephfh3_2K_Displacement.exr using Guid(c5153c498bef0684894301c7be42503d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d9ad98035053d9cb58c6b7bc8d7b03') in 0.016102 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
