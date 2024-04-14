@@ -1,0 +1,806 @@
+Using pre-set license
+Built from '2021.3/china_unity/release' branch; Version is '2021.3.19f1c1 (b8e3cea1e9d3) revision 12116942'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 65154 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+F:\Unity\UnityDifferentVertions\2021.3.19lts\Unity 2021.3.19f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity/unityprojects/SlayerTeam_LD2024
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60647
+Successfully changed project path to: D:/Unity/unityprojects/SlayerTeam_LD2024
+D:/Unity/unityprojects/SlayerTeam_LD2024
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [35720] Host "[IP] 192.168.10.101 [Port] 0 [Flags] 2 [Guid] 3525321946 [EditorId] 3525321946 [Version] 1048832 [Id] WindowsEditor(7,Shuai) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [35720] Host "[IP] 192.168.10.101 [Port] 0 [Flags] 2 [Guid] 3525321946 [EditorId] 3525321946 [Version] 1048832 [Id] WindowsEditor(7,Shuai) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+AS: AutoStreaming module initializing.
+Refreshing native plugins compatible for Editor in 1.94 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.19f1c1 (b8e3cea1e9d3)
+[Subsystems] Discovering subsystems at path F:/Unity/UnityDifferentVertions/2021.3.19lts/Unity 2021.3.19f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/unityprojects/SlayerTeam_LD2024/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4080 Laptop GPU (ID=0x27e0)
+    Vendor:   NVIDIA
+    VRAM:     12011 MB
+    Driver:   31.0.15.4624
+Initialize mono
+Mono path[0] = 'F:/Unity/UnityDifferentVertions/2021.3.19lts/Unity 2021.3.19f1c1/Editor/Data/Managed'
+Mono path[1] = 'F:/Unity/UnityDifferentVertions/2021.3.19lts/Unity 2021.3.19f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'F:/Unity/UnityDifferentVertions/2021.3.19lts/Unity 2021.3.19f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56500
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: F:/Unity/UnityDifferentVertions/2021.3.19lts/Unity 2021.3.19f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: F:/Unity/UnityDifferentVertions/2021.3.19lts/Unity 2021.3.19f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005751 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.803 seconds
+Domain Reload Profiling:
+	ReloadAssembly (804ms)
+		BeginReloadAssembly (149ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (484ms)
+			LoadAssemblies (143ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (162ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (214ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (146ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000000 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.03 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.788 seconds
+Domain Reload Profiling:
+	ReloadAssembly (788ms)
+		BeginReloadAssembly (180ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (513ms)
+			LoadAssemblies (118ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (143ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (211ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (33ms)
+				ProcessInitializeOnLoadAttributes (128ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.04 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (52.1 KB). Loaded Objects now: 481.
+Memory consumption went from 22.4 MB to 22.4 MB.
+Total: 3.079900 ms (FindLiveObjects: 0.044500 ms CreateObjectMapping: 0.004700 ms MarkObjects: 2.980500 ms  DeleteObjects: 0.049200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 92283.682874 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(38b35347542e5af4c9b140950c5b18db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(38b35347542e5af4c9b140950c5b18db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8db1c49bef184c60124d1fc5b1630a7') in 0.031196 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010645 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 132.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.922 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1923ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (12ms)
+		EndReloadAssembly (1711ms)
+			LoadAssemblies (142ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (494ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (925ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (132ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (607ms)
+				ProcessInitializeOnLoadMethodAttributes (74ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:466 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00015] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:624 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00000] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:1145 
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 466)
+
+Shader 'Universal Render Pipeline/Particles/Simple Lit': fallback shader 'Universal Render Pipeline/Particles/Unlit' not found
+Shader 'Universal Render Pipeline/Nature/SpeedTree7': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Nature/SpeedTree7': dependency 'BillboardShader' shader 'Universal Render Pipeline/Nature/SpeedTree7 Billboard' not found
+Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Universal Render Pipeline/Unlit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Hidden/Universal Render Pipeline/StencilDeferred': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Simple Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Hidden/Universal Render Pipeline/FallbackError': fallback shader 'Hidden/Core/FallbackError' not found
+Refreshing native plugins compatible for Editor in 2.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4887 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 98 unused Assets / (6.5 MB). Loaded Objects now: 5276.
+Memory consumption went from 188.6 MB to 182.1 MB.
+Total: 4.816400 ms (FindLiveObjects: 0.232700 ms CreateObjectMapping: 0.080100 ms MarkObjects: 2.501400 ms  DeleteObjects: 2.001100 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:466 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00015] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:624 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00000] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:1145 
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 466)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:srp/default-shader: 0000e00a000e0de00000e000e0000000 -> 00a0da0d000000000000000000000000
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 230.101792 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(38b35347542e5af4c9b140950c5b18db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(38b35347542e5af4c9b140950c5b18db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3e2ece8825f9db6c2b5200bf51a29c') in 0.015898 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008179 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.043 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1044ms)
+		BeginReloadAssembly (128ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (827ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (218ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (435ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (288ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:466 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00015] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:624 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00000] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:1145 
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 466)
+
+Refreshing native plugins compatible for Editor in 1.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4886 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 98 unused Assets / (6.5 MB). Loaded Objects now: 5279.
+Memory consumption went from 190.3 MB to 183.8 MB.
+Total: 4.713600 ms (FindLiveObjects: 0.191800 ms CreateObjectMapping: 0.068300 ms MarkObjects: 2.421400 ms  DeleteObjects: 2.031200 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:466 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00015] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:624 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00000] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:1145 
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 466)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:srp/default-shader: 0000e00a000e0de00000e000e0000000 -> 00a0da0d000000000000000000000000
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5.243145 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(38b35347542e5af4c9b140950c5b18db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(38b35347542e5af4c9b140950c5b18db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b14d8248548f96f452dc17bafb24a4a2') in 0.011825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.479335 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.002018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.079800 seconds.
+  path: Assets/LD_2024_Assets
+  artifactKey: Guid(bd8f10f98a7540c45953e03264cd92ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LD_2024_Assets using Guid(bd8f10f98a7540c45953e03264cd92ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e5fbecc4e1a566d6b220630588b047') in 0.001323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.491802 seconds.
+  path: Assets/LD_2024_Assets/Model
+  artifactKey: Guid(9da41edf0b2923b4990e41a0cc514cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LD_2024_Assets/Model using Guid(9da41edf0b2923b4990e41a0cc514cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7afb442c148fc786fb7160016f10d60') in 0.001353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.731721 seconds.
+  path: Assets/LD_2024_Assets/Model/14_10_50_Room.fbx
+  artifactKey: Guid(082a30becdeee5d4982fa34b8e1be0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LD_2024_Assets/Model/14_10_50_Room.fbx using Guid(082a30becdeee5d4982fa34b8e1be0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:466 
+  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <28d694a2939e4826992577f826717d3b>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.GameObjectInspector:DoRenderPreview()
+UnityEditor.GameObjectInspector:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 466)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:466 
+  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <28d694a2939e4826992577f826717d3b>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 466)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:466 
+  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <28d694a2939e4826992577f826717d3b>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 466)
+
+ -> (artifact id: 'e85b648986c60260aa7dace7e44dc638') in 0.377416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.484239 seconds.
+  path: Assets/LD_2024_Assets/Materials
+  artifactKey: Guid(98c63ed5003e63e4faf10ddad6b575b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LD_2024_Assets/Materials using Guid(98c63ed5003e63e4faf10ddad6b575b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78f55c7a8986713295b6cc2b2269abb4') in 0.001504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 80.611891 seconds.
+  path: Assets/LD_2024_Assets/Model/14_10_50_Room.fbx
+  artifactKey: Guid(082a30becdeee5d4982fa34b8e1be0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LD_2024_Assets/Model/14_10_50_Room.fbx using Guid(082a30becdeee5d4982fa34b8e1be0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:466 
+  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <28d694a2939e4826992577f826717d3b>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.GameObjectInspector:DoRenderPreview()
+UnityEditor.GameObjectInspector:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 466)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:466 
+  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <28d694a2939e4826992577f826717d3b>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 466)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:466 
+  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <28d694a2939e4826992577f826717d3b>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 466)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:466 
+  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <28d694a2939e4826992577f826717d3b>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 466)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:466 
+  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <28d694a2939e4826992577f826717d3b>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 466)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:466 
+  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <28d694a2939e4826992577f826717d3b>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 466)
+
+ -> (artifact id: '7300fb1954e5d08e05ac2b4ad270548c') in 0.041360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.734400 seconds.
+  path: Assets/LD_2024_Assets/Materials/Wall_.mat
+  artifactKey: Guid(83e49945879231a4c9933168ec055edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LD_2024_Assets/Materials/Wall_.mat using Guid(83e49945879231a4c9933168ec055edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:466 
+  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <28d694a2939e4826992577f826717d3b>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 466)
+
+ -> (artifact id: 'a60ef4661c56da06f2774717769c6bc3') in 0.015934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.464300 seconds.
+  path: Assets/LD_2024_Assets/Materials/Wall_ 1.mat
+  artifactKey: Guid(f07297c74b116564ca123b80ade46e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LD_2024_Assets/Materials/Wall_ 1.mat using Guid(f07297c74b116564ca123b80ade46e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:466 
+  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <28d694a2939e4826992577f826717d3b>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 466)
+
+ -> (artifact id: '264c5cbb1e24fd2dfc3105c8d3156372') in 0.010518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.675179 seconds.
+  path: Assets/LD_2024_Assets/Materials/Wall_ 2.mat
+  artifactKey: Guid(16d4a3b543876d246a76f55ca484927d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LD_2024_Assets/Materials/Wall_ 2.mat using Guid(16d4a3b543876d246a76f55ca484927d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:466 
+  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <28d694a2939e4826992577f826717d3b>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 466)
+
+ -> (artifact id: 'b6995208790c8637302762736f4b1284') in 0.007936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.842682 seconds.
+  path: Assets/LD_2024_Assets/Materials/Wall_ 3.mat
+  artifactKey: Guid(626d2153a6a6b484cae8b15efdfdf2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LD_2024_Assets/Materials/Wall_ 3.mat using Guid(626d2153a6a6b484cae8b15efdfdf2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:466 
+  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <28d694a2939e4826992577f826717d3b>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 466)
+
+ -> (artifact id: 'b1010c8efe1326d8e4d93416168a5d10') in 0.018767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.972480 seconds.
+  path: Assets/LD_2024_Assets/Materials/Wall_ 4.mat
+  artifactKey: Guid(7c88a3306a8fe3f4aad60c5d74f92100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LD_2024_Assets/Materials/Wall_ 4.mat using Guid(7c88a3306a8fe3f4aad60c5d74f92100) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:466 
+  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <28d694a2939e4826992577f826717d3b>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 466)
+
+ -> (artifact id: 'b5bf93d1d9a70a131eb5c5533815f8d5') in 0.023955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.748461 seconds.
+  path: Assets/LD_2024_Assets/Materials/Ground_Room.mat
+  artifactKey: Guid(83e49945879231a4c9933168ec055edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LD_2024_Assets/Materials/Ground_Room.mat using Guid(83e49945879231a4c9933168ec055edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:466 
+  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <28d694a2939e4826992577f826717d3b>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 466)
+
+ -> (artifact id: '766346159a88b38cc6b91e4622d49981') in 0.008063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 173.438153 seconds.
+  path: Assets/LD_2024_Assets/Materials/Ground_Room.mat
+  artifactKey: Guid(83e49945879231a4c9933168ec055edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LD_2024_Assets/Materials/Ground_Room.mat using Guid(83e49945879231a4c9933168ec055edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:466 
+  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <28d694a2939e4826992577f826717d3b>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 466)
+
+ -> (artifact id: 'e5b76b4fd6a8720724633b214c4c8780') in 0.014070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LD_2024_Assets/Materials/Wall_ 4.mat
+  artifactKey: Guid(7c88a3306a8fe3f4aad60c5d74f92100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LD_2024_Assets/Materials/Wall_ 4.mat using Guid(7c88a3306a8fe3f4aad60c5d74f92100) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:466 
+  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <28d694a2939e4826992577f826717d3b>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 466)
+
+ -> (artifact id: '8c33ff06cd3faf80c83f44406a75711f') in 0.021313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/LD_2024_Assets/Materials/Wall_ 2.mat
+  artifactKey: Guid(16d4a3b543876d246a76f55ca484927d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LD_2024_Assets/Materials/Wall_ 2.mat using Guid(16d4a3b543876d246a76f55ca484927d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:466 
+  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <28d694a2939e4826992577f826717d3b>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 466)
+
+ -> (artifact id: 'cb490d667a28bb8c91814f98a796509e') in 0.009863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/LD_2024_Assets/Materials/Wall_ 3.mat
+  artifactKey: Guid(626d2153a6a6b484cae8b15efdfdf2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LD_2024_Assets/Materials/Wall_ 3.mat using Guid(626d2153a6a6b484cae8b15efdfdf2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10\Runtime\Data\UniversalRenderPipelineAsset.cs:466 
+  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <28d694a2939e4826992577f826717d3b>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.10/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 466)
+
+ -> (artifact id: '59062dab541b474ebf7bfa72995efe84') in 0.012615 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
