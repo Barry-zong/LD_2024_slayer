@@ -11,13 +11,13 @@ F:\Unity\UnityDifferentVertions\2021.3.19lts\Unity 2021.3.19f1c1\Editor\Unity.ex
 -name
 AssetImportWorker1
 -projectPath
-D:/Unity/unityprojects/SlayerTeam_LD2024
+E:/GithubProjectRepository/OldVersionVRgRab/LD_2024_slayer/SlayerTeam_LD2024
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-51252
-Successfully changed project path to: D:/Unity/unityprojects/SlayerTeam_LD2024
-D:/Unity/unityprojects/SlayerTeam_LD2024
+59989
+Successfully changed project path to: E:/GithubProjectRepository/OldVersionVRgRab/LD_2024_slayer/SlayerTeam_LD2024
+E:/GithubProjectRepository/OldVersionVRgRab/LD_2024_slayer/SlayerTeam_LD2024
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,16 +47,16 @@ D:/Unity/unityprojects/SlayerTeam_LD2024
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [48724] Host "[IP] 192.168.2.83 [Port] 0 [Flags] 2 [Guid] 579020530 [EditorId] 579020530 [Version] 1048832 [Id] WindowsEditor(7,Shuai) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [46632] Host "[IP] 192.168.2.83 [Port] 0 [Flags] 2 [Guid] 4245194425 [EditorId] 4245194425 [Version] 1048832 [Id] WindowsEditor(7,Shuai) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [48724] Host "[IP] 192.168.2.83 [Port] 0 [Flags] 2 [Guid] 579020530 [EditorId] 579020530 [Version] 1048832 [Id] WindowsEditor(7,Shuai) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [46632] Host "[IP] 192.168.2.83 [Port] 0 [Flags] 2 [Guid] 4245194425 [EditorId] 4245194425 [Version] 1048832 [Id] WindowsEditor(7,Shuai) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 AS: AutoStreaming module initializing.
-Refreshing native plugins compatible for Editor in 67.42 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 85.06 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.19f1c1 (b8e3cea1e9d3)
 [Subsystems] Discovering subsystems at path F:/Unity/UnityDifferentVertions/2021.3.19lts/Unity 2021.3.19f1c1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Unity/unityprojects/SlayerTeam_LD2024/Assets
+[Subsystems] Discovering subsystems at path E:/GithubProjectRepository/OldVersionVRgRab/LD_2024_slayer/SlayerTeam_LD2024/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -68,92 +68,92 @@ Initialize mono
 Mono path[0] = 'F:/Unity/UnityDifferentVertions/2021.3.19lts/Unity 2021.3.19f1c1/Editor/Data/Managed'
 Mono path[1] = 'F:/Unity/UnityDifferentVertions/2021.3.19lts/Unity 2021.3.19f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'F:/Unity/UnityDifferentVertions/2021.3.19lts/Unity 2021.3.19f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56672
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56060
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: F:/Unity/UnityDifferentVertions/2021.3.19lts/Unity 2021.3.19f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: F:/Unity/UnityDifferentVertions/2021.3.19lts/Unity 2021.3.19f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003233 seconds.
+Registered in 0.003752 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 61.77 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 69.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.441 seconds
+- Completed reload, in  0.712 seconds
 Domain Reload Profiling:
-	ReloadAssembly (441ms)
-		BeginReloadAssembly (64ms)
+	ReloadAssembly (713ms)
+		BeginReloadAssembly (133ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (294ms)
-			LoadAssemblies (59ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (68ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (449ms)
+			LoadAssemblies (125ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (139ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (16ms)
-			SetupLoadedEditorAssemblies (172ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (233ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (62ms)
+				RefreshPlugins (70ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (73ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				ProcessInitializeOnLoadAttributes (108ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010142 seconds.
+Registered in 0.011661 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Unity\unityprojects\SlayerTeam_LD2024\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\GithubProjectRepository\OldVersionVRgRab\LD_2024_slayer\SlayerTeam_LD2024\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\GithubProjectRepository\OldVersionVRgRab\LD_2024_slayer\SlayerTeam_LD2024\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 60.96 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 83.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.898 seconds
+- Completed reload, in  1.574 seconds
 Domain Reload Profiling:
-	ReloadAssembly (898ms)
-		BeginReloadAssembly (84ms)
+	ReloadAssembly (1575ms)
+		BeginReloadAssembly (119ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (11ms)
-		EndReloadAssembly (740ms)
-			LoadAssemblies (69ms)
+			CreateAndSetChildDomain (13ms)
+		EndReloadAssembly (1366ms)
+			LoadAssemblies (165ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (178ms)
+			SetupTypeCache (420ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (434ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (651ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (61ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (245ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
-				AfterProcessingInitializeOnLoad (13ms)
+				RefreshPlugins (84ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (375ms)
+				ProcessInitializeOnLoadMethodAttributes (65ms)
+				AfterProcessingInitializeOnLoad (18ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4939 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (0.7 MB). Loaded Objects now: 5399.
-Memory consumption went from 198.5 MB to 197.8 MB.
-Total: 2.730200 ms (FindLiveObjects: 0.197600 ms CreateObjectMapping: 0.076500 ms MarkObjects: 2.248800 ms  DeleteObjects: 0.206400 ms)
+Unloading 5002 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (0.7 MB). Loaded Objects now: 5463.
+Memory consumption went from 201.9 MB to 201.2 MB.
+Total: 4.228900 ms (FindLiveObjects: 0.242600 ms CreateObjectMapping: 0.088000 ms MarkObjects: 3.356400 ms  DeleteObjects: 0.540800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -168,10 +168,28 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 103259.859252 seconds.
-  path: Assets/LD_2024_Assets/Materials/Tile_Ceramic_xephfh3_2K_surface_ms/xephfh3_2K_Albedo.jpg
-  artifactKey: Guid(9c1f2ffd7b1ccd549a0256ae6258dec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LD_2024_Assets/Materials/Tile_Ceramic_xephfh3_2K_surface_ms/xephfh3_2K_Albedo.jpg using Guid(9c1f2ffd7b1ccd549a0256ae6258dec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db912e8a4fd556083bb32bdee50cf8f') in 0.112144 seconds 
+  Time since last request: 106994.484755 seconds.
+  path: Assets/ExampleAssets/Materials/Strap_Mat.mat
+  artifactKey: Guid(81c1860e7800e5340bf8a54c565ba9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Strap_Mat.mat using Guid(81c1860e7800e5340bf8a54c565ba9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '901a497f5ee6b2dd32248cb354078bdd') in 0.299427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/Skybox Cubemap Extended Blend.mat
+  artifactKey: Guid(1cf6f4c6e6e0518419839d3f5448dd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/Skybox Cubemap Extended Blend.mat using Guid(1cf6f4c6e6e0518419839d3f5448dd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b36775fbc85d9c956fb502084410b1bc') in 0.480531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/Skybox Cubemap Extended Day.mat
+  artifactKey: Guid(2bd8959f5fbd3644aa33af1a155fc147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/Skybox Cubemap Extended Day.mat using Guid(2bd8959f5fbd3644aa33af1a155fc147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f9fe5a7e10a564599a9e70d1d208e6') in 0.110150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/LD_2024_Assets/Materials/ground_normal/wall_normal.mat
+  artifactKey: Guid(3caed23e995d39647a4866dbdeaf3c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LD_2024_Assets/Materials/ground_normal/wall_normal.mat using Guid(3caed23e995d39647a4866dbdeaf3c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b957c5982499aed2409c6e309f4370d') in 0.037370 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
